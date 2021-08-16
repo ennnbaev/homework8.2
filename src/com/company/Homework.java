@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Homework {
 
     public static void main(String[] args) {
         List<String> example=new ArrayList<>();
