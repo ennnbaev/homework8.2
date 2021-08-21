@@ -15,10 +15,11 @@ public class Homework {
         System.out.println(deleteMore4(example));
     }
     public static List deleteMore4(List<String>example){
-        List<String>result=new ArrayList<>(example);
-        for(int i=result.size()-1;i>=0;i--){
-            if(result.get(i).length()>4){
-                result.remove(result.get(i));}
+        List<String>result=new ArrayList<>();
+        for (String s : example) {
+            if (s.length() <= 4) {
+                result.add(s);
+            }
         }
         return result;
     }
